@@ -86,7 +86,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-3">
-            <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border-2 border-[#C9A84C] bg-black text-[#C9A84C] font-display font-700 text-base tracking-tight" style={{letterSpacing:'0.04em'}}>
+            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-700 text-3xl" style={{letterSpacing:'0.04em'}}>
               SG
             </span>
             <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
@@ -393,7 +393,7 @@ const Index = () => {
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-3">
-            <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border-2 border-[#C9A84C] bg-black text-[#C9A84C] font-display font-700 text-base" style={{letterSpacing:'0.04em'}}>
+            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-700 text-3xl" style={{letterSpacing:'0.04em'}}>
               SG
             </span>
             <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase font-display text-xl font-700" style={{letterSpacing:'0.18em'}}>
