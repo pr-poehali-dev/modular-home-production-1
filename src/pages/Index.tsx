@@ -86,10 +86,9 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-2">
-            <span className="inline-flex w-8 h-8 rounded-md bg-foreground text-background items-center justify-center">
-              <Icon name="House" size={18} />
+            <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
+              SVR <span style={{color:'#e8c96a'}}>group</span>
             </span>
-            SVR<span className="text-accent"> group</span>
           </a>
           <nav className="hidden lg:flex items-center gap-7 text-sm font-500">
             {NAV.map((n) => (
@@ -390,7 +389,9 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <div className="font-display text-xl font-700 text-foreground">SVR<span className="text-accent"> group</span></div>
+          <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase font-display text-xl font-700" style={{letterSpacing:'0.18em'}}>
+              SVR <span style={{color:'#e8c96a'}}>group</span>
+            </span>
           <p>© 2026 SVR group — производство модульных домов</p>
           <div className="flex gap-4">
             {['Send', 'Instagram', 'Youtube'].map((i) => (
