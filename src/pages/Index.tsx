@@ -33,7 +33,7 @@ const FINISH = [
 ];
 const EXTRAS = [
   { label: 'Терраса', icon: 'TreePine', price: 380000 },
-  { label: 'Тёплый пол', icon: 'Flame', price: 220000 },
+  { label: 'Мангальная зона', icon: 'Flame', price: 220000 },
   { label: 'Камин', icon: 'Sparkles', price: 310000 },
   { label: 'Сауна', icon: 'Droplets', price: 540000 },
 ];
