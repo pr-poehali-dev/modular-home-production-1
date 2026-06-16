@@ -115,12 +115,7 @@ const Index = () => {
         </div>
         <div className="container relative z-10 pb-16 md:pb-24 text-white">
           <div className="max-w-3xl">
-            <div className="animate-fade-up inline-flex items-center gap-3 bg-black/80 backdrop-blur px-4 py-2.5 rounded-2xl mb-6">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#C9A84C] text-black font-display font-700 text-lg">SG</span>
-              <span className="bg-black text-[#C9A84C] px-3 py-1 rounded-md tracking-widest uppercase font-display font-700 text-base" style={{letterSpacing:'0.18em'}}>
-                SVR <span style={{color:'#e8c96a'}}>group</span>
-              </span>
-            </div>
+
             <span className="animate-fade-up inline-flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-600 bg-accent text-accent-foreground px-4 py-2 rounded-full">
               <Icon name="Leaf" size={14} /> Производство модульных домов
             </span>
