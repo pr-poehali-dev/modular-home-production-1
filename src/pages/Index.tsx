@@ -86,7 +86,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-3">
-            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-700 text-3xl" style={{letterSpacing:'0.04em'}}>
+            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-semibold text-4xl" style={{letterSpacing:'0.04em'}}>
               SG
             </span>
             <span className="text-[#C9A84C] tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
@@ -120,7 +120,7 @@ const Index = () => {
               <Icon name="Leaf" size={14} /> Производство модульных домов
             </span>
             <h1 className="animate-fade-up font-display text-[13vw] leading-[0.9] md:text-8xl font-700 uppercase mt-6" style={{ animationDelay: '0.1s' }}>
-              Жизнь вдали<br />от <span className="text-accent">шума</span>
+              Жизнь вдали<br />от <span className="text-accent"></span>
             </h1>
             <p className="animate-fade-up mt-6 text-lg md:text-xl text-white/80 max-w-xl text-balance" style={{ animationDelay: '0.2s' }}>
               Тёплый дом для круглогодичной жизни на природе. Собираем на заводе, привозим готовым и устанавливаем за пару дней.
