@@ -116,9 +116,11 @@ const Index = () => {
         <div className="container relative z-10 pb-16 md:pb-24 text-white">
           <div className="max-w-3xl">
 
-            <span className="animate-fade-up inline-flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-600 bg-accent text-accent-foreground px-4 py-2 rounded-full">
-              <Icon name="Leaf" size={14} /> Производство модульных домов
-            </span>
+            <div className="flex justify-end">
+              <span className="animate-fade-up inline-flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-600 bg-accent text-accent-foreground px-4 py-2 rounded-full">
+                <Icon name="Leaf" size={14} /> Производство модульных домов
+              </span>
+            </div>
             <h1 className="animate-fade-up font-display text-[13vw] leading-[0.9] md:text-8xl font-700 uppercase mt-6" style={{ animationDelay: '0.1s' }}>
               Жизнь вдали<br />от <span className="text-accent"></span>
             </h1>
