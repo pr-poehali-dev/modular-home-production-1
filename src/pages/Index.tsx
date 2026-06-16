@@ -376,7 +376,7 @@ const Index = () => {
               </h2>
               <p className="mt-5 text-background/70 max-w-md">Оставьте контакты — инженер рассчитает стоимость и пришлёт варианты под ваш участок.</p>
               <div className="flex flex-wrap gap-6 mt-8 text-sm">
-                <a href="tel:+74950000000" className="flex items-center gap-2 hover:text-accent"><Icon name="Phone" size={18} />+7 495 000-00-00</a>
+                <a href="tel:+74950000000" className="flex items-center gap-2 hover:text-accent"><Icon name="Phone" size={18} />8 800 234 37 74</a>
                 <a href="mailto:hello@modhouse.ru" className="flex items-center gap-2 hover:text-accent"><Icon name="Mail" size={18} />hello@modhouse.ru</a>
               </div>
             </div>
@@ -403,7 +403,7 @@ const Index = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <a href="tel:+74950000000" className="flex items-center gap-2 hover:text-accent transition-colors font-500">
-              <Icon name="Phone" size={16} /> +7 495 000-00-00
+              <Icon name="Phone" size={16} /> 8 800 234 37 74
             </a>
             <span className="hidden md:block opacity-30">|</span>
             <p>© 2026 SVR group — производство модульных домов</p>
