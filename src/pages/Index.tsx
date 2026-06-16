@@ -121,7 +121,7 @@ const Index = () => {
                 <Icon name="Leaf" size={14} /> Производство модульных домов
               </span>
             </div>
-            <h1 className="animate-fade-up font-display leading-[0.9] md:text-8xl font-700 uppercase text-amber-50 text-7xl my-3" style={{ animationDelay: '0.1s' }}>ЖИЗНЬ<br />ВДАЛИ ОТ<br />ШУМА</h1>
+            <h1 className="animate-fade-up font-display leading-[0.9] md:text-8xl font-700 uppercase text-amber-50 text-7xl my-3" style={{ animationDelay: '0.1s' }}>ЖИЗНЬ<br />ВДАЛИ ОТ ШУМА</h1>
             <p className="animate-fade-up mt-6 text-lg md:text-xl text-white/80 max-w-xl text-balance" style={{ animationDelay: '0.2s' }}>
               Тёплый дом для круглогодичной жизни на природе. Собираем на заводе, привозим готовым и устанавливаем за пару дней.
             </p>
