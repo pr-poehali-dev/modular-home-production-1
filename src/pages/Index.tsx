@@ -17,7 +17,7 @@ const NAV = [
 ];
 
 const AREAS = [
-  { label: '25 м²', value: 25, price: 1850000 },
+  { label: '18 м²', value: 18, price: 1850000 },
   { label: '45 м²', value: 45, price: 2950000 },
   { label: '70 м²', value: 70, price: 4200000 },
   { label: '110 м²', value: 110, price: 6100000 },
@@ -39,7 +39,7 @@ const EXTRAS = [
 ];
 
 const CATALOG = [
-  { name: 'Nordic S', img: IMG_HERO, area: '25 м²', price: 'от 1.85 млн', tag: 'Хит' },
+  { name: 'Nordic S', img: IMG_HERO, area: '18 м²', price: 'от 1.85 млн', tag: 'Хит' },
   { name: 'Forest M', img: IMG_2, area: '70 м²', price: 'от 4.2 млн', tag: 'Новинка' },
   { name: 'Cliff L', img: IMG_3, area: '110 м²', price: 'от 6.1 млн', tag: 'Premium' },
 ];
