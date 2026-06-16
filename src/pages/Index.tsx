@@ -20,7 +20,7 @@ const AREAS = [
   { label: '18 м²', value: 18, price: 1850000 },
   { label: '24 м²', value: 24, price: 2950000 },
   { label: '30 м²', value: 30, price: 4200000 },
-  { label: '110 м²', value: 110, price: 6100000 },
+  { label: '36 м²', value: 36, price: 6100000 },
 ];
 const FLOORS = [
   { label: '1 этаж', value: 1, k: 1 },
