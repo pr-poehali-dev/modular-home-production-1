@@ -89,7 +89,7 @@ const Index = () => {
             <span className="inline-flex w-8 h-8 rounded-md bg-foreground text-background items-center justify-center">
               <Icon name="House" size={18} />
             </span>
-            MODHOUS<span className="text-accent">E</span>
+            SVR<span className="text-accent"> group</span>
           </a>
           <nav className="hidden lg:flex items-center gap-7 text-sm font-500">
             {NAV.map((n) => (
@@ -166,7 +166,7 @@ const Index = () => {
               Делаем дома, в которых хочется жить
             </h2>
             <p className="mt-6 text-lg text-muted-foreground text-balance">
-              MODHOUSE — собственное производство модульных домов полного цикла. От эскиза до заселения мы контролируем каждый этап: проектирование, заводская сборка, доставка и монтаж.
+              SVR group — собственное производство модульных домов полного цикла. От эскиза до заселения мы контролируем каждый этап: проектирование, заводская сборка, доставка и монтаж.
             </p>
             <div className="grid grid-cols-2 gap-5 mt-9">
               {[
@@ -390,8 +390,8 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <div className="font-display text-xl font-700 text-foreground">MODHOUS<span className="text-accent">E</span></div>
-          <p>© 2026 MODHOUSE — производство модульных домов</p>
+          <div className="font-display text-xl font-700 text-foreground">SVR<span className="text-accent"> group</span></div>
+          <p>© 2026 SVR group — производство модульных домов</p>
           <div className="flex gap-4">
             {['Send', 'Instagram', 'Youtube'].map((i) => (
               <a key={i} href="#" className="hover:text-accent"><Icon name={i} size={20} /></a>
