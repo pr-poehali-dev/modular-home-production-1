@@ -89,7 +89,7 @@ const Index = () => {
             <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-700 text-3xl" style={{letterSpacing:'0.04em'}}>
               SG
             </span>
-            <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
+            <span className="text-[#C9A84C] tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
               SVR <span style={{color:'#e8c96a'}}>group</span>
             </span>
           </a>
