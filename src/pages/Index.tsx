@@ -392,9 +392,14 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase font-display text-xl font-700" style={{letterSpacing:'0.18em'}}>
+          <div className="flex items-center gap-3">
+            <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border-2 border-[#C9A84C] bg-black text-[#C9A84C] font-display font-700 text-base" style={{letterSpacing:'0.04em'}}>
+              SG
+            </span>
+            <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase font-display text-xl font-700" style={{letterSpacing:'0.18em'}}>
               SVR <span style={{color:'#e8c96a'}}>group</span>
             </span>
+          </div>
           <p>© 2026 SVR group — производство модульных домов</p>
           <div className="flex gap-4">
             {['Send', 'Instagram', 'Youtube'].map((i) => (
