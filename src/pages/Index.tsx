@@ -400,11 +400,17 @@ const Index = () => {
               SVR <span style={{color:'#e8c96a'}}>group</span>
             </span>
           </div>
-          <p>© 2026 SVR group — производство модульных домов</p>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <a href="tel:+74950000000" className="flex items-center gap-2 hover:text-accent transition-colors font-500">
+              <Icon name="Phone" size={16} /> +7 495 000-00-00
+            </a>
+            <span className="hidden md:block opacity-30">|</span>
+            <p>© 2026 SVR group — производство модульных домов</p>
+          </div>
           <div className="flex gap-4">
-            {['Send', 'Instagram', 'Youtube'].map((i) => (
-              <a key={i} href="#" className="hover:text-accent"><Icon name={i} size={20} /></a>
-            ))}
+            <a href="#" className="hover:text-accent transition-colors"><Icon name="Send" size={20} /></a>
+            <a href="#" className="hover:text-accent transition-colors"><Icon name="Youtube" size={20} /></a>
+            <a href="#" className="hover:text-accent transition-colors"><Icon name="ExternalLink" size={20} /></a>
           </div>
         </div>
       </footer>
