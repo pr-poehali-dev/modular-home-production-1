@@ -86,7 +86,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-3">
-            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-semibold text-4xl" style={{letterSpacing:'0.04em'}}>
+            <span className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#C9A84C] text-black font-display font-semibold text-4xl mx-0 my-0" style={{letterSpacing:'0.04em'}}>
               SG
             </span>
             <span className="text-[#C9A84C] tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
