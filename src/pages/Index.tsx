@@ -85,7 +85,10 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="container flex items-center justify-between h-16">
-          <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-2">
+          <a href="#" className="font-display text-2xl font-700 tracking-tight flex items-center gap-3">
+            <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border-2 border-[#C9A84C] bg-black text-[#C9A84C] font-display font-700 text-base tracking-tight" style={{letterSpacing:'0.04em'}}>
+              SG
+            </span>
             <span className="bg-black text-[#C9A84C] px-4 py-1.5 rounded-md tracking-widest uppercase" style={{fontFamily:'Oswald,sans-serif', letterSpacing:'0.18em'}}>
               SVR <span style={{color:'#e8c96a'}}>group</span>
             </span>
