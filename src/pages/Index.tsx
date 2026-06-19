@@ -170,7 +170,7 @@ const Index = () => {
                 ['Factory', 'Своё производство'],
                 ['Thermometer', 'Тепло до −50 °C'],
                 ['Recycle', 'Эко-материалы'],
-                ['Timer', 'Сдача за 45 дней'],
+                ['Timer', 'Сдача за 60 дней'],
               ].map(([icon, t]) => (
                 <div key={t} className="flex items-center gap-3 bg-secondary rounded-2xl p-4">
                   <span className="w-10 h-10 rounded-xl bg-accent text-accent-foreground flex items-center justify-center shrink-0">
