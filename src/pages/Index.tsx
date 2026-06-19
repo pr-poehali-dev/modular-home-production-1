@@ -40,7 +40,7 @@ const EXTRAS = [
 ];
 
 const CATALOG = [
-  { name: 'Nordic S', img: IMG_HERO, area: '18 м²', price: 'от 1.85 млн', tag: 'Хит' },
+  { name: 'Ургун S', img: IMG_HERO, area: '18 м²', price: 'от 1.85 млн', tag: 'Хит' },
   { name: 'Forest M', img: IMG_2, area: '70 м²', price: 'от 4.2 млн', tag: 'Новинка' },
   { name: 'Cliff L', img: IMG_3, area: '110 м²', price: 'от 6.1 млн', tag: 'Premium' },
 ];
