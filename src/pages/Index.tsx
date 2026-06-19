@@ -134,14 +134,7 @@ const Index = () => {
                 Смотреть каталог
               </Button>
             </div>
-            <div className="animate-fade-up flex gap-10 mt-12" style={{ animationDelay: '0.4s' }}>
-              {[['350+', 'домов построено'], ['45 дней', 'средний срок'], ['25 лет', 'гарантия']].map(([n, t]) => (
-                <div key={t}>
-                  <div className="font-display text-3xl md:text-4xl font-700 text-accent">{n}</div>
-                  <div className="text-sm text-white/70">{t}</div>
-                </div>
-              ))}
-            </div>
+
           </div>
         </div>
       </section>
