@@ -111,7 +111,7 @@ const Index = () => {
       <section className="relative pt-16 min-h-[100svh] flex items-end">
         <div className="absolute inset-0">
           <img src={IMG_HERO} alt="Модульный дом в лесу" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#161310] via-[#161310]/40 to-[#161310]/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#161310]/70 via-[#161310]/20 to-[#161310]/10" />
           <div className="absolute inset-0 grain pointer-events-none" />
         </div>
         <div className="container relative z-10 pb-16 md:pb-24 text-white">
