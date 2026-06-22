@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import Icon from '@/components/ui/icon';
 import { Button } from '@/components/ui/button';
 
-const IMG_HERO = 'https://cdn.poehali.dev/projects/639b8dc2-e2e5-4337-b9ad-76ae5455b90f/files/f83bf56d-b6f9-454a-97ab-842c0e0ff47e.jpg';
+const IMG_HERO = 'https://cdn.poehali.dev/projects/639b8dc2-e2e5-4337-b9ad-76ae5455b90f/files/17bb6adb-0282-4f5e-8764-5dabd7d5bcb5.jpg';
 const IMG_2 = 'https://cdn.poehali.dev/projects/639b8dc2-e2e5-4337-b9ad-76ae5455b90f/files/85aa4353-6490-41ed-b8c0-82c209cfd765.jpg';
 const IMG_3 = 'https://cdn.poehali.dev/projects/639b8dc2-e2e5-4337-b9ad-76ae5455b90f/bucket/ee3f1c64-177b-40e1-ac94-6027bb0000d8.jpg';
 
